@@ -258,7 +258,7 @@
     },
     "metallicGatewayClientName":{
       "type": "string",
-      "value": "[concat('Backupgateway-', reference(resourceId('Microsoft.Compute/virtualMachines', variables('vName')).vmId)]"
+      "value": "[concat('Backupgateway-', reference(resourceId('Microsoft.Compute/virtualMachines', variables('vName'))).vmId)]"
     },
     "adminUsername": {
       "type": "String",
